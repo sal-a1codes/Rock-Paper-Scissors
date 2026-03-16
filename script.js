@@ -45,5 +45,5 @@ function playGame (){
 
     alert(`Final Score:\nYou: ${humanScore}\nComputer: ${computerScore}`);
 }
-
+playGame();
  
