@@ -3,92 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin - Rock, Paper, Scissors</title>
 </head>
 <body>
-    <script>
-function getComputerChoice (){
-    const choices = ["rock", "paper", "scissors"];
-    const randomIndex = Math.floor(Math.random() * choices.length);
-    return choices[randomIndex];
-
-}
+    <h1>Rock, Paper, Scissors Game</h1>
     
-function getHumanChoice (){
-  let choice = prompt("Type rock, paper, or scissors");
-  return choice;
-  
-}
-
-
-function playGame (){
-    function playRound(humanChoice, computerChoice) {
-      // normalize and compare choices
-      const playerChoice = humanChoice.toLowerCase();
-      const computer = computerChoice.toLowerCase();
-      if (humanChoice === computer) return "draw";
-      if (
-        (humanChoice === "rock" && computer === "scissors") ||
-        (humanChoice === "paper" && computer === "rock") ||
-        (humanChoice === "scissors" && computer === "paper")
-      ) 
-        return "human wins";
-      return "computer wins";
-    }
-    function playRound(humanChoice, computerChoice) {
-      // normalize and compare choices
-      const playerChoice = humanChoice.toLowerCase();
-      const computer = computerChoice.toLowerCase();
-      if (humanChoice === computer) return "draw";
-      if (
-        (humanChoice === "rock" && computer === "scissors") ||
-        (humanChoice === "paper" && computer === "rock") ||
-        (humanChoice === "scissors" && computer === "paper")
-      ) 
-        return "human wins";
-      return "computer wins";
-    }function playRound(humanChoice, computerChoice) {
-      // normalize and compare choices
-      const playerChoice = humanChoice.toLowerCase();
-      const computer = computerChoice.toLowerCase();
-      if (humanChoice === computer) return "draw";
-      if (
-        (humanChoice === "rock" && computer === "scissors") ||
-        (humanChoice === "paper" && computer === "rock") ||
-        (humanChoice === "scissors" && computer === "paper")
-      ) 
-        return "human wins";
-      return "computer wins";
-    }function playRound(humanChoice, computerChoice) {
-      // normalize and compare choices
-      const playerChoice = humanChoice.toLowerCase();
-      const computer = computerChoice.toLowerCase();
-      if (humanChoice === computer) return "draw";
-      if (
-        (humanChoice === "rock" && computer === "scissors") ||
-        (humanChoice === "paper" && computer === "rock") ||
-        (humanChoice === "scissors" && computer === "paper")
-      ) 
-        return "human wins";
-      return "computer wins";
-    }function playRound(humanChoice, computerChoice) {
-      // normalize and compare choices
-      const playerChoice = humanChoice.toLowerCase();
-      const computer = computerChoice.toLowerCase();
-      if (humanChoice === computer) return "draw";
-      if (
-        (humanChoice === "rock" && computer === "scissors") ||
-        (humanChoice === "paper" && computer === "rock") ||
-        (humanChoice === "scissors" && computer === "paper")
-      ) 
-        return "human wins";
-      return "computer wins";
-    }
-    let humanScore = 0;
-    let computerScore = 0;
-}
-
-console.log ()
-    </script>
 </body>
 </html>
